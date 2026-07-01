@@ -65,7 +65,7 @@ test-v:
 
 coverage:
 	$(UV) run pytest $(TESTS_DIR) -v --cov=$(PROJECT_NAME) --cov-report=html --cov-report=term-missing
-	@echo "📊 Coverage report generated in htmlcov/index.html"
+	@echo "Coverage report generated in htmlcov/index.html"
 
 build:
 	$(UV) build
