@@ -2,12 +2,10 @@
 
 from __future__ import annotations
 
-from typing import TypeAlias
-
 import numpy as np
 import pandas as pd
 
-ArrayLike: TypeAlias = pd.Series | np.ndarray | list[float]
+type ArrayLike = pd.Series | np.ndarray | list[float]
 
 
 def SMA(data: ArrayLike, period: int, shift: int = 0) -> pd.Series | np.ndarray:
