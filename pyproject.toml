@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "mt5forge"
-version = "1.0.2"
+version = "1.0.3"
 description = "Production-grade Python MT5 trading infrastructure library"
 readme = "README.md"    
 license = { text = "MIT" }
